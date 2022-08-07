@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.headerOfPage{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2% 3%;
+    text-align: right;
+}
+.postContainer{
+    display: flex;
+    flex-direction: column;
+}
+.post{
+    width: 63%;
+    padding: 1% 2%;
+    margin: 0 2% 2% 2%;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 7px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(2, 2, 82, 0.4);
+    border-radius: 7px;
+}
+.content{
+    text-align: justify;
+    font-size: 14px;
+    padding-top: 10px;
+}

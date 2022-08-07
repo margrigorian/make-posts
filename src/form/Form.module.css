@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.formContainer{
+    margin-top: 2%;
+    padding: 2% 3%;
+    /* display: flex;
+    /* flex-direction: column; 
+    justify-content: flex-end;  */
+    /* justify-content: flex-end; */
+}
+.titleForm{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.inputTitle{
+    width: 64.5%;
+    padding: 1%;
+    margin-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inputContent{
+    width: 64.5%;
+    padding: 2% 1%;
+    margin-top: 1.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button{
+    padding: 1%;
+    margin-top: 1.5%;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
